@@ -1,0 +1,25 @@
+{
+  "name": "tutor_dunia_admin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@adminjs/express": "^6.1.0",
+    "@adminjs/mongoose": "^4.1.0",
+    "@tiptap/extension-text-style": "^2.9.0",
+    "adminjs": "^7.8.13",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7",
+    "tslib": "^2.8.0"
+  }
+}
